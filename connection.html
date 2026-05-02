@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact — Denis</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="header">
+        <div class="header-container">
+            <a href="index.html" class="logo">Denis</a>
+            <nav class="nav">
+                <a href="connection.html" class="active">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="contact-page">
+        <div class="container">
+            <section class="hero-mini">
+                <span class="badge">CONTACT</span>
+                <h1>Let's create something <span class="italic-text">special</span></h1>
+                <p>I am always open to new proposals and interesting projects. Feel free to contact me in any convenient way.</p>
+            </section>
+
+            <div class="contact-grid">
+                <div class="contact-sidebar">
+                    <div class="info-block">
+                        <h3>EMAIL</h3>
+                        <a href="mailto:sokolovdenisod@gmail.com" class="contact-link">sokolovdenisod@gmail.com</a>
+                    </div>
+                    <div class="info-block">
+                        <h3>LOCATION</h3>
+                        <p>Odesa, Ukraine</p>
+                    </div>
+                    <div class="info-block">
+                        <h3>SOCIALS</h3>
+                        <div class="social-links">
+                            <a href="#">Telegram</a>
+                            <a href="#">GitHub</a>
+                            <a href="#">LinkedIn</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-container">
+                    <form id="contact-form" action="https://formspree.io/f/xeevpzek" method="POST">
+                        <div class="form-row">
+                            <div class="input-field">
+                                <label>Your Name</label>
+                                <input type="text" name="name" placeholder="Denis" required>
+                            </div>
+                            <div class="input-field">
+                                <label>Your Email</label>
+                                <input type="email" name="email" placeholder="example@mail.com" required>
+                            </div>
+                        </div>
+                        <div class="input-field">
+                            <label>About the project</label>
+                            <textarea name="message" rows="5" placeholder="Describe your idea or task..." required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn" id="submit-button">
+                            <span>Send Message</span>
+                        </button>
+                        <div id="form-status"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
