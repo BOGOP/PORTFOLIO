@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project Details — Denis Sokolov</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav>
+    <a class="nav-logo" href="index.html">Denis</a>
+    <ul class="nav-links">
+      <li><a href="index.html#projects">Back to Projects</a></li>
+    </ul>
+  </nav>
+
+  <!-- Если проект не найден, покажем ошибку -->
+  <div id="error-message" style="display: none; text-align: center; padding: 100px 20px;">
+    <h1>Project not found</h1>
+    <a href="index.html" class="btn btn-primary" style="margin-top: 20px;">Return Home</a>
+  </div>
+
+  <main class="project-details" id="project-content" style="display: none;">
+    <header class="project-header">
+      <h1 id="proj-title">Загрузка...</h1>
+      <p class="project-subtitle" id="proj-subtitle"></p>
+      
+      <div class="project-links">
+        <a id="proj-live" class="btn btn-primary" href="#" target="_blank" rel="noopener">Live Preview</a>
+        <a id="proj-github" class="btn btn-outline" href="#" target="_blank" rel="noopener">GitHub Repo</a>
+      </div>
+    </header>
+
+    <div class="project-hero-image">
+      <img id="proj-image" src="" alt="Project Mockup">
+    </div>
+
+    <div class="project-content">
+      <div class="project-section">
+        <h2>О проекте</h2>
+        <p id="proj-about"></p>
+      </div>
+
+      <div class="project-section">
+        <h2>Технологии и процесс</h2>
+        <ul class="tech-list" id="proj-tech">
+          <!-- Сюда сгенерируются списки <li> -->
+        </ul>
+      </div>
+
+      <div class="project-section">
+        <h2>Особенности</h2>
+        <p id="proj-features"></p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2026 Denis &nbsp;·&nbsp; <a href="mailto:sokolovdenisod@gmail.com">sokolovdenisod@gmail.com</a></p>
+  </footer>
+
+  <!-- Подключаем базу данных и скрипт-шаблонизатор -->
+  <script src="data.js"></script>
+  <script src="template.js"></script>
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project Details — Denis Sokolov</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav>
+    <a class="nav-logo" href="index.html">Denis</a>
+    <ul class="nav-links">
+      <li><a href="index.html#projects">Back to Projects</a></li>
+    </ul>
+  </nav>
+
+  <!-- Если проект не найден, покажем ошибку -->
+  <div id="error-message" style="display: none; text-align: center; padding: 100px 20px;">
+    <h1>Project not found</h1>
+    <a href="index.html" class="btn btn-primary" style="margin-top: 20px;">Return Home</a>
+  </div>
+
+  <main class="project-details" id="project-content" style="display: none;">
+    <header class="project-header">
+      <h1 id="proj-title">Загрузка...</h1>
+      <p class="project-subtitle" id="proj-subtitle"></p>
+      
+      <div class="project-links">
+        <a id="proj-live" class="btn btn-primary" href="#" target="_blank" rel="noopener">Live Preview</a>
+        <a id="proj-github" class="btn btn-outline" href="#" target="_blank" rel="noopener">GitHub Repo</a>
+      </div>
+    </header>
+
+    <div class="project-hero-image">
+      <img id="proj-image" src="" alt="Project Mockup">
+    </div>
+
+    <div class="project-content">
+      <div class="project-section">
+        <h2>О проекте</h2>
+        <p id="proj-about"></p>
+      </div>
+
+      <div class="project-section">
+        <h2>Технологии и процесс</h2>
+        <ul class="tech-list" id="proj-tech">
+          <!-- Сюда сгенерируются списки <li> -->
+        </ul>
+      </div>
+
+      <div class="project-section">
+        <h2>Особенности</h2>
+        <p id="proj-features"></p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2026 Denis &nbsp;·&nbsp; <a href="mailto:sokolovdenisod@gmail.com">sokolovdenisod@gmail.com</a></p>
+  </footer>
+  <script src="template.js"></script>
+</body>
+</html>
